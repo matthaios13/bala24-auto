@@ -6,13 +6,32 @@ import re
 
 import requests
 
-PROMPT = """Είσαι editor του ελληνικού αθλητικού site Bala24. Θα σου δώσω το κείμενο ενός tweet με ρετρό ποδοσφαιρικό βίντεο.
-Γράψε στα ΕΛΛΗΝΙΚΑ, με ενθουσιασμό αλλά ΜΟΝΟ με στοιχεία που υπάρχουν στο tweet (μην επινοείς σκορ, ημερομηνίες, ομάδες):
-- "overlay": τίτλος για πάνω στο βίντεο, έως 55 χαρακτήρες, χωρίς emoji, χωρίς hashtags.
-- "youtube": τίτλος YouTube έως 70 χαρακτήρες, με 1 emoji στην αρχή, χωρίς hashtags.
-- "description": 2-3 σύντομες προτάσεις για το τι βλέπουμε, με 1-2 emoji.
-Ονόματα παικτών/ομάδων στα ελληνικά όπως τα γράφουν τα ελληνικά αθλητικά site (π.χ. Κρέσπο, Ίντερ, Άγιαξ).
-Απάντησε ΜΟΝΟ με JSON: {"overlay": "...", "youtube": "...", "description": "..."}"""
+PROMPT = """Είσαι Έλληνας αθλητικός συντάκτης του site Bala24. Θα σου δώσω το κείμενο ενός tweet με ρετρό ποδοσφαιρικό βίντεο
+(μπορεί να είναι στα αγγλικά, ισπανικά, πορτογαλικά, ιταλικά). Γράψε ΣΩΣΤΑ, φυσικά ελληνικά, όπως ένα ελληνικό αθλητικό site.
+
+ΚΑΝΟΝΕΣ:
+- ΜΟΝΟ στοιχεία που υπάρχουν στο tweet. Μην επινοείς σκορ, ημερομηνίες, διοργανώσεις, ομάδες ή αντιπάλους.
+- ΟΛΑ τα ονόματα παικτών/ομάδων με ΕΛΛΗΝΙΚΟΥΣ χαρακτήρες, όπως τα γράφει ο ελληνικός αθλητικός τύπος
+  (Asprilla → Ασπρίγια, Crespo → Κρέσπο, Ajax → Άγιαξ, Rivaldo → Ριβάλντο, Juventus → Γιουβέντους, Manchester United → Μάντσεστερ Γιουνάιτεντ,
+   Cantona → Καντονά, Baggio → Μπάτζιο, Zidane → Ζιντάν, Real Madrid → Ρεάλ Μαδρίτης, Barcelona → Μπαρτσελόνα).
+- «το γκολ» (ουδέτερο), «η γκολάρα», «η μπάλα» (ποτέ «μπαλόνι»). Σωστά άρθρα και πτώσεις: «κόντρα στον Άγιαξ», «απέναντι στη Γιουβέντους».
+- ΟΧΙ αγγλικοί ποδοσφαιρικοί όροι: chip → λόμπα, volley → βολέ, header → κεφαλιά, free kick → φάουλ/εκτέλεση φάουλ,
+  replay → επαναληπτικός, winner/winning goal → νικητήριο γκολ, final → τελικός, World Cup → Μουντιάλ, FA Cup → Κύπελλο Αγγλίας.
+- Αν δεν ξέρεις με βεβαιότητα την ελληνική απόδοση ενός ονόματος, γράψ' το φωνητικά με ελληνικά γράμματα.
+- Ύφος: ζωντανό, λιτό. Όχι υπερβολές που δεν στηρίζονται στο tweet.
+
+ΠΑΡΑΔΕΙΓΜΑΤΑ:
+Tweet: "When Hernan Crespo scored THIS vs Ajax in 2002. How about that!"
+→ {"overlay": "Η γκολάρα του Κρέσπο κόντρα στον Άγιαξ το 2002",
+   "youtube": "🔥 Τι γκολ ήταν αυτό του Κρέσπο κόντρα στον Άγιαξ το 2002;",
+   "description": "Ο Ερνάν Κρέσπο και ένα γκολ που θυμόμαστε ακόμα, κόντρα στον Άγιαξ το 2002 ⚽ Τι λέτε, από τα καλύτερά του;"}
+Tweet: "Happy Birthday Tino Asprilla!"
+→ {"overlay": "Χρόνια πολλά στον Τίνο Ασπρίγια!",
+   "youtube": "🎂 Χρόνια πολλά στον Τίνο Ασπρίγια!",
+   "description": "Σήμερα έχει γενέθλια ο Τίνο Ασπρίγια 🎉 Θυμόμαστε μερικές από τις στιγμές που τον έκαναν θρύλο ⚽"}
+
+ΜΟΡΦΗ: απάντησε ΜΟΝΟ με JSON:
+{"overlay": "έως 55 χαρακτήρες, χωρίς emoji/hashtags", "youtube": "έως 70 χαρακτήρες, 1 emoji στην αρχή, χωρίς hashtags", "description": "2-3 σύντομες προτάσεις, 1-2 emoji"}"""
 
 
 def _clean(t):
@@ -24,19 +43,23 @@ def generate(info, account, cfg, title_override=""):
     text = _clean(info.get("description") or info.get("title"))
     key = os.environ.get("GROQ_API_KEY", "").strip()
     out = None
-    if key and text:
+    models = [os.environ.get("GROQ_MODEL", "qwen/qwen3.8-27b"), "openai/gpt-oss-120b"]
+    for model in (models if key and text else []):
         try:
             r = requests.post("https://api.groq.com/openai/v1/chat/completions",
                               headers={"Authorization": f"Bearer {key}"},
-                              json={"model": "llama-3.3-70b-versatile", "temperature": 0.4,
+                              json={"model": model, "temperature": 0.3,
                                     "response_format": {"type": "json_object"},
                                     "messages": [{"role": "system", "content": PROMPT},
                                                  {"role": "user", "content": f"Λογαριασμός: @{account}\nTweet: {text}"}]},
                               timeout=60)
             r.raise_for_status()
             out = json.loads(r.json()["choices"][0]["message"]["content"])
+            if all(out.get(k) for k in ("overlay", "youtube", "description")):
+                break
+            out = None
         except Exception as e:
-            print(f"(Groq: {e} — τίτλος από το αρχικό κείμενο)")
+            print(f"(Groq {model}: {e})")
     if not out:
         out = {"overlay": text[:55] or "Ρετρό ποδόσφαιρο", "youtube": f"⚽ {text[:68]}", "description": text}
     overlay = title_override or out["overlay"]
