@@ -1,0 +1,116 @@
+name: Bala24 auto-post
+
+on:
+  schedule:
+    # Γύρω από τις ώρες ανάρτησης 11:00, 15:00, 20:00 Ελλάδας (08/09, 12/13, 17/18 UTC, θερινή/χειμερινή ώρα).
+    # Αν αλλάξεις τις ώρες στο config.yaml, άλλαξε και αυτή τη γραμμή.
+    - cron: "5,35 8,9,12,13,17,18 * * *"
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "normal / force (ανάρτηση τώρα) / youtube-check (έλεγχος σύνδεσης YouTube)"
+        default: normal
+        type: choice
+        options: [normal, force, youtube-check, youtube-repost, youtube-review-now]
+      video:
+        description: "Για youtube-repost: το ID του βίντεο (από το state/posted.json)"
+        required: false
+        default: ""
+
+concurrency:
+  group: autopost
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+  issues: write
+
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install pyyaml
+
+      - name: Έλεγχος σύνδεσης YouTube
+        if: github.event.inputs.mode == 'youtube-check'
+        env:
+          YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}
+          YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
+          YT_REFRESH_TOKEN: ${{ secrets.YT_REFRESH_TOKEN }}
+        run: |
+          pip install -q google-api-python-client google-auth
+          python -u src/main.py --youtube-check
+
+      - name: YouTube — ανέβασμα βίντεο που έχει ήδη βγει στο Instagram
+        if: github.event.inputs.mode == 'youtube-repost'
+        env:
+          YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}
+          YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
+          YT_REFRESH_TOKEN: ${{ secrets.YT_REFRESH_TOKEN }}
+          VIDEO_ID: ${{ github.event.inputs.video }}
+        run: |
+          git clone -q --filter=blob:none --no-checkout -b queue "https://github.com/${GITHUB_REPOSITORY}.git" queue
+          pip install -q requests google-api-python-client google-auth
+          python -u src/main.py --youtube-repost "$VIDEO_ID"
+
+      - name: Είναι ώρα ανάρτησης;
+        id: check
+        run: |
+          if [ "${{ github.event.inputs.mode }}" = "force" ]; then echo "due=true" >> "$GITHUB_OUTPUT";
+          elif [ -n "${{ github.event.inputs.mode }}" ] && [ "${{ github.event.inputs.mode }}" != "normal" ]; then echo "due=false" >> "$GITHUB_OUTPUT";
+          else python src/main.py --check; fi
+
+      # Η ουρά (branch "queue") κατεβαίνει χωρίς τα βίντεο· παίρνουμε μόνο αυτό που θα ανέβει.
+      - uses: actions/checkout@v4
+        if: steps.check.outputs.due == 'true'
+        with:
+          ref: queue
+          path: queue
+          filter: blob:none
+          sparse-checkout: |
+            /*.json
+          sparse-checkout-cone-mode: false
+
+      - if: steps.check.outputs.due == 'true'
+        run: pip install requests google-api-python-client google-auth
+
+      - name: Ανάρτηση
+        if: steps.check.outputs.due == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}
+          YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
+          YT_REFRESH_TOKEN: ${{ secrets.YT_REFRESH_TOKEN }}
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+        run: |
+          if [ "${{ github.event.inputs.mode }}" = "force" ]; then python -u src/main.py --force;
+          else python -u src/main.py; fi
+
+      # Σε κάθε εκτέλεση: ιδιωτικά Shorts που περιμένουν έλεγχο → δημόσια αν είναι καθαρά
+      - name: YouTube έλεγχος & δημοσίευση
+        if: always()
+        env:
+          GH_TOKEN: ${{ github.token }}
+          YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}
+          YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
+          YT_REFRESH_TOKEN: ${{ secrets.YT_REFRESH_TOKEN }}
+        run: |
+          if grep -q '"yt_state": "pending"' state/posted.json 2>/dev/null; then
+            pip install -q requests google-api-python-client google-auth
+            if [ "${{ github.event.inputs.mode }}" = "youtube-review-now" ]; then python -u src/main.py --review-now;
+            else python -u src/main.py --review; fi
+          fi
+
+      - name: Αποθήκευση ιστορικού
+        if: always()
+        run: |
+          git config user.name "bala24-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add state/posted.json
+          git diff --cached --quiet || (git commit -m "Ιστορικό αναρτήσεων" && git pull --rebase -q && git push)

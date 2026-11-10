@@ -1,0 +1,34 @@
+# Ρυθμίσεις Bala24 auto-poster
+# Μπορείς να αλλάξεις ό,τι θέλεις εδώ μέσα από το GitHub (κουμπί ✏️) χωρίς να αγγίξεις κώδικα.
+
+# Κάνε το true όταν μπουν όλα τα secrets. Μέχρι τότε δεν γίνεται καμία αυτόματη ανάρτηση.
+active: false
+
+source:
+  # Το Google Sheet με τα links των tweets (στήλες: Link, Account, Tweet date, Status, Title (optional))
+  sheet_id: "18OU6qEwaG6vVgUcz3WFkUm2_7EWBjsLAMkl9odE9yMk"
+  # Μέγιστη διάρκεια βίντεο-πηγή σε δευτερόλεπτα (Shorts έως 3 λεπτά μαζί με το outro)
+  max_seconds: 170
+
+# Πόσες μέρες μπροστά ετοιμάζει το Mac (7 μέρες x 3 = 21 βίντεο)
+queue:
+  days_ahead: 7
+
+# Ώρες Ελλάδας
+schedule:
+  timezone: "Europe/Athens"
+  slots: ["11:00", "15:00", "20:00"]
+  grace_hours: 3
+
+# Hashtags στο τέλος κάθε περιγραφής
+hashtags: "#bala24 #football #retrofootball #footballnostalgia #ποδόσφαιρο #soccer"
+
+publish:
+  instagram: true
+  # YouTube: ανεβαίνει πρώτα ιδιωτικό· μετά από youtube_review_minutes λεπτά, αν δεν έχει θέμα copyright,
+  # γίνεται δημόσιο, αλλιώς μένει ιδιωτικό και έρχεται email.
+  youtube: true
+  youtube_auto_public: true
+  youtube_review_minutes: 30
+  youtube_title_hashtags: "#bala24 #shorts #football"
+  youtube_paid_promotion: false
