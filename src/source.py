@@ -17,10 +17,16 @@ def tweet_id(url):
     return m.group(1) if m else None
 
 
+SHEETS_TOKEN = DATA / "sheets_token.json"     # λογαριασμός που έχει το Sheet (αν είναι άλλος από του YouTube)
+
+
 def _sheets():
     from google.oauth2.credentials import Credentials
     from googleapiclient.discovery import build
-    creds = Credentials.from_authorized_user_file(str(TOKEN), SCOPES)
+    if SHEETS_TOKEN.exists():
+        creds = Credentials.from_authorized_user_file(str(SHEETS_TOKEN), ["https://www.googleapis.com/auth/spreadsheets"])
+    else:
+        creds = Credentials.from_authorized_user_file(str(TOKEN), SCOPES)
     return build("sheets", "v4", credentials=creds, cache_discovery=False).spreadsheets()
 
 

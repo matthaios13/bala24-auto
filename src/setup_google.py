@@ -22,11 +22,22 @@ REPO = "matthaios13/bala24-auto"
 DATA = Path(os.environ.get("BALA24_DATA", Path.home() / "Library/Application Support/Bala24Auto"))
 SCOPES = ["https://www.googleapis.com/auth/youtube", "https://www.googleapis.com/auth/spreadsheets"]
 
-paths = [p for p in sys.argv[1:] if "installed" in json.load(open(p))]
+SHEET_ONLY = "--sheet" in sys.argv
+paths = [p for p in sys.argv[1:] if p != "--sheet" and "installed" in json.load(open(p))]
 if not paths:
     sys.exit("Δώσε το αρχείο client_secret (τύπου Desktop app).")
 secret = paths[-1]
 gh = shutil.which("gh") or str(Path.home() / ".local/bin/gh")
+
+if SHEET_ONLY:   # μόνο σύνδεση του λογαριασμού που έχει το Google Sheet
+    print("Άνοιξε ο browser: διάλεξε τον λογαριασμό Google που ΕΧΕΙ το Sheet «Bala24 – Βίντεο για Reels» και πάτα «Allow»…")
+    c = InstalledAppFlow.from_client_secrets_file(secret, scopes=["https://www.googleapis.com/auth/spreadsheets"]).run_local_server(
+        port=0, access_type="offline", prompt="consent")
+    DATA.mkdir(parents=True, exist_ok=True)
+    t = DATA / "sheets_token.json"; t.write_text(c.to_json()); t.chmod(0o600)
+    sid = yaml.safe_load((ROOT / "config.yaml").read_text())["source"]["sheet_id"]
+    m = build("sheets", "v4", credentials=c, cache_discovery=False).spreadsheets().get(spreadsheetId=sid).execute()
+    sys.exit(f"✓ Πρόσβαση στο Sheet: «{m['properties']['title']}»")
 
 print("Άνοιξε ο browser: διάλεξε τον λογαριασμό Google του Bala24 (αυτόν με το κανάλι @Bala24_gr) και πάτα «Allow»…")
 creds = InstalledAppFlow.from_client_secrets_file(secret, scopes=SCOPES).run_local_server(
