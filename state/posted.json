@@ -1,6 +1,7 @@
 {
   "posted_ids": [
-    "1643520032842948608"
+    "1643520032842948608",
+    "2119926333824192721"
   ],
   "log": [
     {
@@ -15,6 +16,21 @@
       "yt_state": "public",
       "instagram": "https://www.instagram.com/reel/DfjqQ8PEV35/",
       "errors": []
+    },
+    {
+      "slot": "2026-11-10 15:00",
+      "source_id": "2119926333824192721",
+      "source_title": "@1968Tv: LWT The Big Match August 1978 Arsenal 2-2 Leeds United  Commentator Brian Moore #Arsenal #LUFC #MOT https://t.co/6dsMO5A",
+      "title": "⚽ Άρσεναλ 2-2 Λιντς: Το μεγάλο ματς του Αυγούστου 1978 #bala24 #shorts #football",
+      "ok": true,
+      "youtube": "https://youtube.com/shorts/TW12nNxQrkY",
+      "yt_id": "TW12nNxQrkY",
+      "yt_uploaded": "2026-11-10T13:00:32.156928+00:00",
+      "yt_state": "pending",
+      "instagram": "https://www.instagram.com/reel/Dfj9yJFin5V/",
+      "errors": [
+        "Instagram Story: Instagram processing error: {'id': '17918878848499526', 'status': 'Error: Media upload has failed with error code 2207082', 'status_code': 'ERROR'}"
+      ]
     }
   ]
 }
