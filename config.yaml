@@ -2,7 +2,7 @@
 # Μπορείς να αλλάξεις ό,τι θέλεις εδώ μέσα από το GitHub (κουμπί ✏️) χωρίς να αγγίξεις κώδικα.
 
 # Κάνε το true όταν μπουν όλα τα secrets. Μέχρι τότε δεν γίνεται καμία αυτόματη ανάρτηση.
-active: false
+active: true
 
 source:
   # Το Google Sheet με τα links των tweets (στήλες: Link, Account, Tweet date, Status, Title (optional))
