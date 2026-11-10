@@ -25,6 +25,8 @@ hashtags: "#bala24 #football #retrofootball #footballnostalgia #ποδόσφαι
 
 publish:
   instagram: true
+  # Το ίδιο βίντεο και σε Instagram Story
+  instagram_story: true
   # YouTube: ανεβαίνει πρώτα ιδιωτικό· μετά από youtube_review_minutes λεπτά, αν δεν έχει θέμα copyright,
   # γίνεται δημόσιο, αλλιώς μένει ιδιωτικό και έρχεται email.
   youtube: true

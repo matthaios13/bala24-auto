@@ -96,20 +96,19 @@ def youtube_make_public(video_id):
 
 # ---------------- Instagram ----------------
 
-def instagram_upload(video_url, caption):
-    """Το Instagram κατεβάζει μόνο του το βίντεο από δημόσιο link (video_url)."""
+def instagram_upload(video_url, caption, story=False):
+    """Το Instagram κατεβάζει μόνο του το βίντεο από δημόσιο link (video_url). story=True → Instagram Story."""
     token = os.environ["IG_ACCESS_TOKEN"].strip()
     user_id = os.environ["IG_USER_ID"].strip()
     GRAPH = _graph(token)
 
-    r = requests.post(f"{GRAPH}/{user_id}/media", data={
-        "media_type": "REELS", "video_url": video_url,
-        "caption": caption[:2200], "share_to_feed": "true", "access_token": token,
-    }, timeout=60)
+    data = ({"media_type": "STORIES", "video_url": video_url} if story else
+            {"media_type": "REELS", "video_url": video_url, "caption": caption[:2200], "share_to_feed": "true"})
+    r = requests.post(f"{GRAPH}/{user_id}/media", data={**data, "access_token": token}, timeout=60)
     if not r.ok:
         raise RuntimeError(f"container {r.status_code}: {r.text[:500]}")
     container = r.json()["id"]
-    print(f"Instagram container {container}")
+    print(f"Instagram {'story ' if story else ''}container {container}")
 
     for _ in range(60):  # έως ~10 λεπτά επεξεργασία
         time.sleep(10)
