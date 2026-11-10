@@ -1,7 +1,8 @@
 {
   "posted_ids": [
     "1643520032842948608",
-    "2119926333824192721"
+    "2119926333824192721",
+    "2119410859563008262"
   ],
   "log": [
     {
@@ -30,6 +31,21 @@
       "instagram": "https://www.instagram.com/reel/Dfj9yJFin5V/",
       "errors": [
         "Instagram Story: Instagram processing error: {'id': '17918878848499526', 'status': 'Error: Media upload has failed with error code 2207082', 'status_code': 'ERROR'}"
+      ]
+    },
+    {
+      "slot": "2026-11-10 20:00",
+      "source_id": "2119410859563008262",
+      "source_title": "@golsdcopa: Colombia vs Inglaterra, 1998. https://t.co/MAcZKsHSjf",
+      "title": "⚽ Κολομβία - Αγγλία, Μουντιάλ 1998 #bala24 #shorts #football",
+      "ok": true,
+      "youtube": "https://youtube.com/shorts/l8WGs3w8HOo",
+      "yt_id": "l8WGs3w8HOo",
+      "yt_uploaded": "2026-11-10T18:52:33.644537+00:00",
+      "yt_state": "pending",
+      "instagram": "https://www.instagram.com/reel/DfkmAVJiov0/",
+      "errors": [
+        "Instagram Story: Instagram processing error: {'id': '17918931318499526', 'status': 'Error: Media upload has failed with error code 2207082', 'status_code': 'ERROR'}"
       ]
     }
   ]
