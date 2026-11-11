@@ -4,7 +4,8 @@
     "2119926333824192721",
     "2119410859563008262",
     "2113839961703125193",
-    "2120044031191527622"
+    "2120044031191527622",
+    "2120056507391717811"
   ],
   "log": [
     {
@@ -79,6 +80,21 @@
       "instagram": "https://www.instagram.com/reel/DfmjV_tjxau/",
       "story": "https://www.instagram.com/stories/bala24gr/4028062698255827706",
       "errors": []
+    },
+    {
+      "slot": "2026-11-11 20:00",
+      "source_id": "2120056507391717811",
+      "source_title": "@FootballRemind: #OnThisDay 2002 The game was dubbed the ‘P45 Derby’ with managers Roeder and Venables under pressure.  West Ham 3️⃣ (Di ",
+      "title": "⚽️ Ουέστ Χαμ 3-4 Λιντς: Το ντέρμπι της P45 #bala24 #shorts #football",
+      "ok": true,
+      "youtube": "https://youtube.com/shorts/CVohwBCcj50",
+      "yt_id": "CVohwBCcj50",
+      "yt_uploaded": "2026-11-11T18:57:17.405992+00:00",
+      "yt_state": "pending",
+      "instagram": "https://www.instagram.com/reel/DfnLbhxgtbM/",
+      "errors": [
+        "Instagram Story: Instagram processing error: {'id': '17919115170499526', 'status': 'Error: Media upload has failed with error code 2207082', 'status_code': 'ERROR'}"
+      ]
     }
   ]
 }
