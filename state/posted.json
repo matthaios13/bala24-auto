@@ -6,7 +6,8 @@
     "2113839961703125193",
     "2120044031191527622",
     "2120056507391717811",
-    "2078416186631409788"
+    "2078416186631409788",
+    "2039008568008192122"
   ],
   "log": [
     {
@@ -109,6 +110,20 @@
       "yt_state": "public",
       "instagram": "https://www.instagram.com/reel/DforzyRkweR/",
       "story": "https://www.instagram.com/stories/bala24gr/4028662862909600068",
+      "errors": []
+    },
+    {
+      "slot": "2026-11-12 15:00",
+      "source_id": "2039008568008192122",
+      "source_title": "@90sPlayers: Francesco Totti didn't understand the meaning of a weaker foot https://t.co/wNC99lmRFI",
+      "title": "🔥 Ο Τότι και η απίστευτη ισορροπία του #bala24 #shorts #football",
+      "ok": true,
+      "youtube": "https://youtube.com/shorts/WDbd8_Cpytk",
+      "yt_id": "WDbd8_Cpytk",
+      "yt_uploaded": "2026-11-12T13:12:23.807410+00:00",
+      "yt_state": "pending",
+      "instagram": "https://www.instagram.com/reel/DfpIu0mEkJH/",
+      "story": "https://www.instagram.com/stories/bala24gr/4028790366428919059",
       "errors": []
     }
   ]
