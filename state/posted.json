@@ -5,7 +5,8 @@
     "2119410859563008262",
     "2113839961703125193",
     "2120044031191527622",
-    "2120056507391717811"
+    "2120056507391717811",
+    "2078416186631409788"
   ],
   "log": [
     {
@@ -90,11 +91,25 @@
       "youtube": "https://youtube.com/shorts/CVohwBCcj50",
       "yt_id": "CVohwBCcj50",
       "yt_uploaded": "2026-11-11T18:57:17.405992+00:00",
-      "yt_state": "pending",
+      "yt_state": "public",
       "instagram": "https://www.instagram.com/reel/DfnLbhxgtbM/",
       "errors": [
         "Instagram Story: Instagram processing error: {'id': '17919115170499526', 'status': 'Error: Media upload has failed with error code 2207082', 'status_code': 'ERROR'}"
       ]
+    },
+    {
+      "slot": "2026-11-12 11:00",
+      "source_id": "2078416186631409788",
+      "source_title": "@Crap90sFootball: I wasn’t sure about the idea of a half time show at the World Cup final but I’m more convinced having seen the dress reh",
+      "title": "🎤 Η πρόβασή της ημιτελικής παράστασης στο Μουντιάλ #bala24 #shorts #football",
+      "ok": true,
+      "youtube": "https://youtube.com/shorts/mEgYHOR0HPc",
+      "yt_id": "mEgYHOR0HPc",
+      "yt_uploaded": "2026-11-12T09:00:16.724454+00:00",
+      "yt_state": "pending",
+      "instagram": "https://www.instagram.com/reel/DforzyRkweR/",
+      "story": "https://www.instagram.com/stories/bala24gr/4028662862909600068",
+      "errors": []
     }
   ]
 }
