@@ -10,7 +10,8 @@
     "2039008568008192122",
     "2120047581447508283",
     "2116131885076058439",
-    "2120048976036757943"
+    "2120048976036757943",
+    "2120047581447508283r"
   ],
   "log": [
     {
@@ -173,6 +174,20 @@
       "errors": [
         "Instagram Story: Instagram processing error: {'id': '17919368988499526', 'status': 'Error: Media upload has failed with error code 2207082', 'status_code': 'ERROR'}"
       ]
+    },
+    {
+      "slot": "2026-11-13 13:07 (manual)",
+      "source_id": "2120047581447508283r",
+      "source_title": "@80s90sfootball: #OnThisDay in 1990  Liverpool beat Luton Town 4-0 at Anfield to extend their lead at the top of the First Division  Jan ",
+      "title": "⚽ Ο Μόλμπι αποχαιρετά τη Λίβερπουλ με γκολ κόντρα στη Λούτον #bala24 #shorts #football",
+      "ok": true,
+      "youtube": "https://youtube.com/shorts/_piqUYD6Cg8",
+      "yt_id": "_piqUYD6Cg8",
+      "yt_uploaded": "2026-11-13T11:07:16.465172+00:00",
+      "yt_state": "pending",
+      "instagram": "https://www.instagram.com/reel/DfrfPTqEx-E/",
+      "story": "https://www.instagram.com/stories/bala24gr/4029452187050566748",
+      "errors": []
     }
   ]
 }
