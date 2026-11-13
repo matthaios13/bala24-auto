@@ -8,7 +8,8 @@
     "2120056507391717811",
     "2078416186631409788",
     "2039008568008192122",
-    "2120047581447508283"
+    "2120047581447508283",
+    "2116131885076058439"
   ],
   "log": [
     {
@@ -140,6 +141,21 @@
       "instagram": "https://www.instagram.com/reel/Dfpv-7bmR6W/",
       "story": "https://www.instagram.com/stories/bala24gr/4028962931588332240",
       "errors": []
+    },
+    {
+      "slot": "2026-11-13 11:00",
+      "source_id": "2116131885076058439",
+      "source_title": "@FACupWembley: Happy 85th birthday to #Arsenal’s legendary goalkeeper @BobWilsonBWSC.  Wilson won the #FACup in 1971 following their 2-",
+      "title": "🎂 Χρόνια πολλά στον Μπоб Γουίλσον, θρύλο του Άρσεναλ! #bala24 #shorts #football",
+      "ok": true,
+      "youtube": "https://youtube.com/shorts/BrHCTSXobYI",
+      "yt_id": "BrHCTSXobYI",
+      "yt_uploaded": "2026-11-13T09:43:40.358453+00:00",
+      "yt_state": "pending",
+      "story": "https://www.instagram.com/stories/bala24gr/4029409762320411762",
+      "errors": [
+        "Instagram: publish 500: {\"error\":{\"message\":\"An unexpected error has occurred. Please retry your request later.\",\"type\":\"OAuthException\",\"is_transient\":true,\"code\":2,\"fbtrace_id\":\"AmDRa7-8fo_Dtl4fqmbWHiK\"}}"
+      ]
     }
   ]
 }
