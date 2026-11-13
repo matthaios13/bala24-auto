@@ -59,6 +59,11 @@ def generate(info, account, cfg, title_override=""):
                               timeout=60)
             r.raise_for_status()
             out = json.loads(r.json()["choices"][0]["message"]["content"])
+            # Ποτέ κυριλλικά ή άλλα ξένα γράμματα (π.χ. «Мпоб»): αν υπάρχουν, δοκιμάζουμε το επόμενο μοντέλο.
+            if any(re.search(r"[\u0400-\u04FF\u0590-\u06FF\u4E00-\u9FFF]", str(out.get(k, ""))) for k in ("overlay", "youtube", "description")):
+                print(f"(Groq {model}: ξένα γράμματα, δοκιμάζω άλλο)")
+                out = None
+                continue
             if all(out.get(k) for k in ("overlay", "youtube", "description")):
                 break
             out = None

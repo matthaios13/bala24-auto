@@ -151,11 +151,12 @@
       "youtube": "https://youtube.com/shorts/BrHCTSXobYI",
       "yt_id": "BrHCTSXobYI",
       "yt_uploaded": "2026-11-13T09:43:40.358453+00:00",
-      "yt_state": "pending",
+      "yt_state": "private",
       "story": "https://www.instagram.com/stories/bala24gr/4029409762320411762",
       "errors": [
         "Instagram: publish 500: {\"error\":{\"message\":\"An unexpected error has occurred. Please retry your request later.\",\"type\":\"OAuthException\",\"is_transient\":true,\"code\":2,\"fbtrace_id\":\"AmDRa7-8fo_Dtl4fqmbWHiK\"}}"
-      ]
+      ],
+      "note": "κρατήθηκε ιδιωτικό: λάθος γράμματα στον τίτλο (κυριλλικά)"
     }
   ]
 }
