@@ -19,6 +19,11 @@ PROMPT = """Είσαι Έλληνας αθλητικός συντάκτης το
   η Ρεάλ, η Μίλαν, η Ίντερ, η Μάντσεστερ Γιουνάιτεντ, η Τσέλσι, η Άρσεναλ, η Τότεναμ, η Λούτον, η Μπάγερν, η Ντόρτμουντ, η Μαρσέιγ.
   Αρσενικά μόνο όσα στα ελληνικά λέγονται αρσενικά: ο Άγιαξ, ο Ολυμπιακός, ο Παναθηναϊκός, ο ΠΑΟΚ. ΣΩΣΤΟ: «αποχαιρετά τη Λίβερπουλ», ΛΑΘΟΣ: «αποχαιρετά τον Λίβερπουλ».
 - Ελληνική απόδοση ονομάτων όπως στον αθλητικό τύπο: Luton → Λούτον, Molby → Μόλμπι, Anfield → Άνφιλντ.
+  Iain Dowie → Ίαν Ντάουι, Stanley Matthews → Στάνλεϊ Μάθιους, Lens → Λανς, Bob Wilson → Μπομπ Γουίλσον,
+  Bombonera → Μπομπονέρα, Como → η Κόμο (θηλυκό), Upton Park → Άπτον Παρκ.
+- ΜΟΝΟ ελληνικά γράμματα στο κείμενο (εκτός από hashtags). ΚΑΜΙΑ αγγλική λέξη μέσα στις προτάσεις (π.χ. «before», «pilot»).
+- Σωστό γένος στα ουσιαστικά: «η φανέλα» (τη φανέλα), «η εμφάνιση», «η απόδοση» (οι αποδόσεις).
+- Αν το tweet ΔΕΝ είναι για ποδόσφαιρο (διαφήμιση, τηλεοπτική σειρά, άλλο άθλημα), βάλε "football": false.
 - ΟΧΙ αγγλικοί ποδοσφαιρικοί όροι: chip → λόμπα, volley → βολέ, header → κεφαλιά, free kick → φάουλ/εκτέλεση φάουλ,
   replay → επαναληπτικός, winner/winning goal → νικητήριο γκολ, final → τελικός, World Cup → Μουντιάλ, FA Cup → Κύπελλο Αγγλίας.
 - Αν δεν ξέρεις με βεβαιότητα την ελληνική απόδοση ενός ονόματος, γράψ' το φωνητικά με ελληνικά γράμματα.
@@ -35,7 +40,11 @@ Tweet: "Happy Birthday Tino Asprilla!"
    "description": "Σήμερα έχει γενέθλια ο Τίνο Ασπρίγια 🎉 Θυμόμαστε μερικές από τις στιγμές που τον έκαναν θρύλο ⚽"}
 
 ΜΟΡΦΗ: απάντησε ΜΟΝΟ με JSON:
-{"overlay": "έως 55 χαρακτήρες, χωρίς emoji/hashtags", "youtube": "έως 70 χαρακτήρες, 1 emoji στην αρχή, χωρίς hashtags", "description": "2-3 σύντομες προτάσεις, 1-2 emoji"}"""
+{"football": true, "overlay": "έως 55 χαρακτήρες, χωρίς emoji/hashtags", "youtube": "έως 70 χαρακτήρες, 1 emoji στην αρχή, χωρίς hashtags", "description": "2-3 σύντομες προτάσεις, 1-2 emoji"}"""
+
+
+class NotFootball(Exception):
+    pass
 
 
 def _clean(t):
@@ -64,9 +73,13 @@ def generate(info, account, cfg, title_override=""):
                 print(f"(Groq {model}: ξένα γράμματα, δοκιμάζω άλλο)")
                 out = None
                 continue
+            if out.get("football") is False:
+                raise NotFootball("το tweet δεν αφορά ποδόσφαιρο")
             if all(out.get(k) for k in ("overlay", "youtube", "description")):
                 break
             out = None
+        except NotFootball:
+            raise
         except Exception as e:
             print(f"(Groq {model}: {e})")
     if not out:

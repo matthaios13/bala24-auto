@@ -165,6 +165,9 @@ def main():
                 print(f"✓ {r['url']} → {text['overlay_title']}")
                 if made % 3 == 0:
                     q.push()
+            except caption.NotFootball:
+                print(f"– {r['url']}: δεν είναι ποδόσφαιρο, παραλείπεται")
+                source.mark(sheet, r["row"], "skip")
             except Exception as e:
                 print(f"✗ {r['url']}: {e}")
                 source.mark(sheet, r["row"], "error")
