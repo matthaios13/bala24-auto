@@ -9,7 +9,8 @@
     "2078416186631409788",
     "2039008568008192122",
     "2120047581447508283",
-    "2116131885076058439"
+    "2116131885076058439",
+    "2120048976036757943"
   ],
   "log": [
     {
@@ -157,6 +158,21 @@
         "Instagram: publish 500: {\"error\":{\"message\":\"An unexpected error has occurred. Please retry your request later.\",\"type\":\"OAuthException\",\"is_transient\":true,\"code\":2,\"fbtrace_id\":\"AmDRa7-8fo_Dtl4fqmbWHiK\"}}"
       ],
       "note": "κρατήθηκε ιδιωτικό: λάθος γράμματα στον τίτλο (κυριλλικά)"
+    },
+    {
+      "slot": "2026-11-13 11:46 (manual)",
+      "source_id": "2120048976036757943",
+      "source_title": "@stusfootyflash: Classic Saint &amp; Greavsie clip from this week in 1989, looking at Scotland’s upcoming crunch WC qualifier with Norway",
+      "title": "🏴󠁧󠁢󠁳󠁣󠁴󠁿 Ο Γκρέιβς «καίει» τους Λάιτον και Θόρστβεντ το 1989 #bala24 #shorts #football",
+      "ok": true,
+      "youtube": "https://youtube.com/shorts/8Ai8JND9UpU",
+      "yt_id": "8Ai8JND9UpU",
+      "yt_uploaded": "2026-11-13T09:46:57.176713+00:00",
+      "yt_state": "pending",
+      "instagram": "https://www.instagram.com/reel/DfrV8fwk9T-/",
+      "errors": [
+        "Instagram Story: Instagram processing error: {'id': '17919368988499526', 'status': 'Error: Media upload has failed with error code 2207082', 'status_code': 'ERROR'}"
+      ]
     }
   ]
 }
