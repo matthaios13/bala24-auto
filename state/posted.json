@@ -15,7 +15,8 @@
     "2116131885076058439r",
     "2120048817664135661",
     "2120063959772680637",
-    "2120062905446006914"
+    "2120062905446006914",
+    "2119922133052600670"
   ],
   "log": [
     {
@@ -245,9 +246,23 @@
       "youtube": "https://youtube.com/shorts/l6yC-RiyTXQ",
       "yt_id": "l6yC-RiyTXQ",
       "yt_uploaded": "2026-11-14T09:00:22.390169+00:00",
-      "yt_state": "pending",
+      "yt_state": "public",
       "instagram": "https://www.instagram.com/reel/Dft1aMrmZ48/",
       "story": "https://www.instagram.com/stories/bala24gr/4030112675097914639",
+      "errors": []
+    },
+    {
+      "slot": "2026-11-14 15:00",
+      "source_id": "2119922133052600670",
+      "source_title": "@00sFootb4ll: When Hernan Crespo scored THIS vs Ajax in 2002. How about that! https://t.co/2IhOizTLiE",
+      "title": "🔥 Τι γκολ ήταν αυτό του Κρέσπο κόντρα στον Άγιαξ το 2002; #bala24 #shorts #football",
+      "ok": true,
+      "youtube": "https://youtube.com/shorts/oHbqEzo2LxQ",
+      "yt_id": "oHbqEzo2LxQ",
+      "yt_uploaded": "2026-11-14T13:12:12.253611+00:00",
+      "yt_state": "pending",
+      "instagram": "https://www.instagram.com/reel/DfuSOtgCUEa/",
+      "story": "https://www.instagram.com/stories/bala24gr/4030239309600448658",
       "errors": []
     }
   ]
