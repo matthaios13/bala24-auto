@@ -14,7 +14,8 @@
     "2120047581447508283r",
     "2116131885076058439r",
     "2120048817664135661",
-    "2120063959772680637"
+    "2120063959772680637",
+    "2120062905446006914"
   ],
   "log": [
     {
@@ -233,6 +234,20 @@
       "yt_state": "public",
       "instagram": "https://www.instagram.com/reel/DfsOaW2DVGY/",
       "story": "https://www.instagram.com/stories/bala24gr/4029659825381712608",
+      "errors": []
+    },
+    {
+      "slot": "2026-11-14 11:00",
+      "source_id": "2120062905446006914",
+      "source_title": "@eurofootcom: 🟨⬛️ Marco Reus x Pierre-Emerick Aubameyang at Borussia Dortmund. 🇩🇪🇬🇦🤩 https://t.co/JtlyPNH1Mf",
+      "title": "🔥 Ρόις - Ομπαμεγιάνγκ στη Μπόρουσια Ντόρτμουντ #bala24 #shorts #football",
+      "ok": true,
+      "youtube": "https://youtube.com/shorts/l6yC-RiyTXQ",
+      "yt_id": "l6yC-RiyTXQ",
+      "yt_uploaded": "2026-11-14T09:00:22.390169+00:00",
+      "yt_state": "pending",
+      "instagram": "https://www.instagram.com/reel/Dft1aMrmZ48/",
+      "story": "https://www.instagram.com/stories/bala24gr/4030112675097914639",
       "errors": []
     }
   ]
