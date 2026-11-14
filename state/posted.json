@@ -16,7 +16,8 @@
     "2120048817664135661",
     "2120063959772680637",
     "2120062905446006914",
-    "2119922133052600670"
+    "2119922133052600670",
+    "2120053716690608190"
   ],
   "log": [
     {
@@ -264,6 +265,21 @@
       "instagram": "https://www.instagram.com/reel/DfuSOtgCUEa/",
       "story": "https://www.instagram.com/stories/bala24gr/4030239309600448658",
       "errors": []
+    },
+    {
+      "slot": "2026-11-14 20:00",
+      "source_id": "2120053716690608190",
+      "source_title": "@Cantona_Collars: #OTD 10th of November 1994:                   𝗗𝗲𝗺𝗼𝗹𝗶𝘁𝗶𝗼𝗻 𝗗𝗲𝗿𝗯𝘆   5️⃣ Manchester United 0️⃣ Manchester City  https://t.co",
+      "title": "🔥 Η «κατεδάφιση» στο ντέρμπι: 5-0 για τη Μάντσεστερ Γιουνάιτεντ #bala24 #shorts #football",
+      "ok": true,
+      "youtube": "https://youtube.com/shorts/e1sqjZcWsIM",
+      "yt_id": "e1sqjZcWsIM",
+      "yt_uploaded": "2026-11-14T18:00:23.745215+00:00",
+      "yt_state": "pending",
+      "instagram": "https://www.instagram.com/reel/DfuzNlZkjK1/",
+      "errors": [
+        "Instagram Story: Instagram processing error: {'id': '17919610368499526', 'status': 'Error: Media upload has failed with error code 2207082', 'status_code': 'ERROR'}"
+      ]
     }
   ]
 }
