@@ -323,7 +323,7 @@
       "youtube": "https://youtube.com/shorts/Bs12Gg5OHkQ",
       "yt_id": "Bs12Gg5OHkQ",
       "yt_uploaded": "2026-11-15T18:00:27.179898+00:00",
-      "yt_state": "pending",
+      "yt_state": "public",
       "instagram": "https://www.instagram.com/reel/DfxYAyEmQR9/",
       "errors": [
         "Instagram Story: Instagram processing error: {'id': '17919800733499526', 'status': 'Error: Media upload has failed with error code 2207082', 'status_code': 'ERROR'}"
