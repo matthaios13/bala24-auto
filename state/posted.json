@@ -18,7 +18,8 @@
     "2120062905446006914",
     "2119922133052600670",
     "2120053716690608190",
-    "1933928889769718000"
+    "1933928889769718000",
+    "2119782784822829329"
   ],
   "log": [
     {
@@ -292,10 +293,25 @@
       "youtube": "https://youtube.com/shorts/E5YH-NwhW6s",
       "yt_id": "E5YH-NwhW6s",
       "yt_uploaded": "2026-11-15T09:00:26.684079+00:00",
-      "yt_state": "pending",
+      "yt_state": "public",
       "instagram": "https://www.instagram.com/reel/DfwaQ0MkWUW/",
       "story": "https://www.instagram.com/stories/bala24gr/4030837626965664320",
       "errors": []
+    },
+    {
+      "slot": "2026-11-15 15:00",
+      "source_id": "2119782784822829329",
+      "source_title": "@3Retro_Football: Back in 2003, Frank Lampard scored his first international goal for #England against #Croatia at Portman Road.  Which pl",
+      "title": "⚽ Το πρώτο διεθνές γκολ του Φρανκ Λάμπαρντ κόντρα στην Κροατία το 2003 #bala24 #shorts #football",
+      "ok": true,
+      "youtube": "https://youtube.com/shorts/tgHtzwOwV8I",
+      "yt_id": "tgHtzwOwV8I",
+      "yt_uploaded": "2026-11-15T13:00:50.788720+00:00",
+      "yt_state": "pending",
+      "instagram": "https://www.instagram.com/reel/Dfw1ufUgNJu/",
+      "errors": [
+        "Instagram Story: Instagram processing error: {'id': '17919756699499526', 'status': 'Error: Media upload has failed with error code 2207082', 'status_code': 'ERROR'}"
+      ]
     }
   ]
 }
