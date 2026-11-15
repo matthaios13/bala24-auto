@@ -19,7 +19,8 @@
     "2119922133052600670",
     "2120053716690608190",
     "1933928889769718000",
-    "2119782784822829329"
+    "2119782784822829329",
+    "1248688488922468352"
   ],
   "log": [
     {
@@ -311,6 +312,21 @@
       "instagram": "https://www.instagram.com/reel/Dfw1ufUgNJu/",
       "errors": [
         "Instagram Story: Instagram processing error: {'id': '17919756699499526', 'status': 'Error: Media upload has failed with error code 2207082', 'status_code': 'ERROR'}"
+      ]
+    },
+    {
+      "slot": "2026-11-15 20:00",
+      "source_id": "1248688488922468352",
+      "source_title": "@worldcupmemor: FIFA World Cup 1998 🇫🇷 @FIFAWorldCup   🇳🇱 2 • 1 YUG @KNVB   ✔️ Round of 16 📆 June. 29th 1998 📍 Toulouse 🇫🇷 🏟 Stade de To",
+      "title": "🔥 Η νίκη της Ολλανδίας επί της Γιουγκοσλαβίας στο Μουντιάλ 1998 #bala24 #shorts #football",
+      "ok": true,
+      "youtube": "https://youtube.com/shorts/Bs12Gg5OHkQ",
+      "yt_id": "Bs12Gg5OHkQ",
+      "yt_uploaded": "2026-11-15T18:00:27.179898+00:00",
+      "yt_state": "pending",
+      "instagram": "https://www.instagram.com/reel/DfxYAyEmQR9/",
+      "errors": [
+        "Instagram Story: Instagram processing error: {'id': '17919800733499526', 'status': 'Error: Media upload has failed with error code 2207082', 'status_code': 'ERROR'}"
       ]
     }
   ]
