@@ -20,7 +20,8 @@
     "2120053716690608190",
     "1933928889769718000",
     "2119782784822829329",
-    "1248688488922468352"
+    "1248688488922468352",
+    "2073358143363408151"
   ],
   "log": [
     {
@@ -328,6 +329,20 @@
       "errors": [
         "Instagram Story: Instagram processing error: {'id': '17919800733499526', 'status': 'Error: Media upload has failed with error code 2207082', 'status_code': 'ERROR'}"
       ]
+    },
+    {
+      "slot": "2026-11-16 11:00",
+      "source_id": "2073358143363408151",
+      "source_title": "@FootballArchive: World Cup '78: Scotland v Netherlands (3:2), Mendoza, 11 June 1978. https://t.co/unz08pj1pJ",
+      "title": "⚽ Μουντιάλ '78: Σκωτία - Ολλανδία (3-2) στο Μεντόσα #bala24 #shorts #football",
+      "ok": true,
+      "youtube": "https://youtube.com/shorts/WQOu7Gjyjuw",
+      "yt_id": "WQOu7Gjyjuw",
+      "yt_uploaded": "2026-11-16T09:00:33.441720+00:00",
+      "yt_state": "pending",
+      "instagram": "https://www.instagram.com/reel/Dfy_ISxAq-b/",
+      "story": "https://www.instagram.com/stories/bala24gr/4031562766744651492",
+      "errors": []
     }
   ]
 }
