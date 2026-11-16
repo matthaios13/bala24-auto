@@ -21,7 +21,8 @@
     "1933928889769718000",
     "2119782784822829329",
     "1248688488922468352",
-    "2073358143363408151"
+    "2073358143363408151",
+    "1642434668552237058"
   ],
   "log": [
     {
@@ -339,10 +340,25 @@
       "youtube": "https://youtube.com/shorts/WQOu7Gjyjuw",
       "yt_id": "WQOu7Gjyjuw",
       "yt_uploaded": "2026-11-16T09:00:33.441720+00:00",
-      "yt_state": "pending",
+      "yt_state": "public",
       "instagram": "https://www.instagram.com/reel/Dfy_ISxAq-b/",
       "story": "https://www.instagram.com/stories/bala24gr/4031562766744651492",
       "errors": []
+    },
+    {
+      "slot": "2026-11-16 15:00",
+      "source_id": "1642434668552237058",
+      "source_title": "@1980sHeaven: On this day 40 years ago relegation-threatened Brighton won 2-1 at home to Tottenham.  The Seagulls came from behind to ",
+      "title": "🔥 Η νίκη της Μπράιτον επί της Τότενχαμ πριν 40 χρόνια #bala24 #shorts #football",
+      "ok": true,
+      "youtube": "https://youtube.com/shorts/5GHkBSCa6G4",
+      "yt_id": "5GHkBSCa6G4",
+      "yt_uploaded": "2026-11-16T13:00:29.989292+00:00",
+      "yt_state": "pending",
+      "instagram": "https://www.instagram.com/reel/Dfzaeu-lNyg/",
+      "errors": [
+        "Instagram Story: Instagram processing error: {'id': '17919934839499526', 'status': 'Error: Media upload has failed with error code 2207082', 'status_code': 'ERROR'}"
+      ]
     }
   ]
 }
