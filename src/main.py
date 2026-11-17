@@ -249,7 +249,7 @@ def main():
             errors.append(f"Instagram: {e}")
     if pub.get("instagram_story"):
         try:
-            entry["story"] = publish.instagram_upload(video_url, "", story=True)
+            entry["story"] = publish.instagram_upload(video_url.replace(".mp4", "_story.mp4"), "", story=True)
             print("Instagram Story:", entry["story"])
         except Exception as e:
             errors.append(f"Instagram Story: {e}")

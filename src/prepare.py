@@ -76,7 +76,7 @@ class Queue:
                 self.remove(meta.stem)
 
     def remove(self, item_id):
-        for ext in (".mp4", ".json"):
+        for ext in (".mp4", ".json", "_story.mp4"):
             git("rm", "-q", "--cached", "--sparse", "--ignore-unmatch", "--", f"{item_id}{ext}", cwd=self.dir)
             (self.dir / f"{item_id}{ext}").unlink(missing_ok=True)
         self.manifest.remove(item_id)
@@ -87,6 +87,11 @@ class Queue:
         (self.dir / f"{item_id}.json").write_text(json.dumps(meta, ensure_ascii=False, indent=1))
         git("add", "--sparse", "--", staged_mp4.name, f"{item_id}.json", cwd=self.dir)
         (self.dir / staged_mp4.name).unlink()  # το βίντεο είναι πλέον μέσα στο git, σβήνουμε το αρχείο
+        story = staged_mp4.with_name(f"{item_id}_story.mp4")
+        if story.exists():   # έκδοση ≤59'' για το Instagram Story
+            shutil.move(str(story), self.dir / story.name)
+            git("add", "--sparse", "--", story.name, cwd=self.dir)
+            (self.dir / story.name).unlink()
         self.manifest.append(item_id)
 
     def push(self):
@@ -103,6 +108,17 @@ class Queue:
 
     def close(self):
         shutil.rmtree(self.dir, ignore_errors=True)
+
+
+def make_story(out):
+    """Instagram Story δέχεται βίντεο έως 60''. Φτιάχνει {id}_story.mp4 (τα πρώτα 59'' με σβήσιμο)."""
+    from imageio_ffmpeg import get_ffmpeg_exe
+    story = out.with_name(f"{out.stem}_story.mp4")
+    subprocess.run([get_ffmpeg_exe(), "-v", "error", "-y", "-i", str(out), "-t", "59",
+                    "-vf", "fade=t=out:st=58:d=1", "-af", "afade=t=out:st=57:d=2",
+                    "-c:v", "libx264", "-preset", "veryfast", "-crf", "22", "-c:a", "aac", "-b:a", "128k",
+                    "-movflags", "+faststart", str(story)], check=True)
+    return story
 
 
 def main():
@@ -152,6 +168,7 @@ def main():
                 out.parent.mkdir()
                 render.render(video, thumb, text["overlay_title"], out,
                               max_seconds=cfg["source"]["max_seconds"], credit=f"@{acct}")
+                make_story(out)
                 q.add(out, {
                     "source_title": f"@{acct}: {(info.get('description') or '')[:120]}",
                     "source_url": r["url"],
