@@ -25,7 +25,8 @@
     "1642434668552237058",
     "2118686083688890879",
     "2119990931533574342",
-    "2119874916896157979"
+    "2119874916896157979",
+    "2112964049105199595"
   ],
   "log": [
     {
@@ -407,6 +408,20 @@
       "yt_state": "public",
       "instagram": "https://www.instagram.com/reel/Df1_WD-iLXg/",
       "story": "https://www.instagram.com/stories/bala24gr/4032407997711730165",
+      "errors": []
+    },
+    {
+      "slot": "2026-11-17 20:00",
+      "source_id": "2112964049105199595",
+      "source_title": "@TFHBs: Stanley Matthew’s - The first recipient of the Ballon D’Or.  Can you sum up Sir Stanley’s legacy on the game in ONE word",
+      "title": "🏆 Ο Στάνλεϊ Μάθιους και ο θρύλος της πρώτης Χρυσής Μπάλας #bala24 #shorts #football",
+      "ok": true,
+      "youtube": "https://youtube.com/shorts/iRZXndFYyeE",
+      "yt_id": "iRZXndFYyeE",
+      "yt_uploaded": "2026-11-17T18:00:28.539660+00:00",
+      "yt_state": "pending",
+      "instagram": "https://www.instagram.com/reel/Df2hmrCjvMj/",
+      "story": "https://www.instagram.com/stories/bala24gr/4032558908568657204",
       "errors": []
     }
   ]
