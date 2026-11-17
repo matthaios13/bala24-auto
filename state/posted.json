@@ -24,7 +24,8 @@
     "2073358143363408151",
     "1642434668552237058",
     "2118686083688890879",
-    "2119990931533574342"
+    "2119990931533574342",
+    "2119874916896157979"
   ],
   "log": [
     {
@@ -388,11 +389,25 @@
       "youtube": "https://youtube.com/shorts/tmEd7B9CMww",
       "yt_id": "tmEd7B9CMww",
       "yt_uploaded": "2026-11-17T09:00:23.078093+00:00",
-      "yt_state": "pending",
+      "yt_state": "public",
       "instagram": "https://www.instagram.com/reel/Df1jzI6k-Vn/",
       "errors": [
         "Instagram Story: Instagram processing error: {'id': '17920069167499526', 'status': 'Error: Media upload has failed with error code 2207082', 'status_code': 'ERROR'}"
       ]
+    },
+    {
+      "slot": "2026-11-17 15:00",
+      "source_id": "2119874916896157979",
+      "source_title": "@PremiershipYrs: August 1996, Upton Park.  The only thing more remarkable than this miss from Iain Dowie is the distance by which it miss",
+      "title": "😱 Το πιο απίστευτο λάθος του Ίαν Ντάουι στο Άπτον Παρκ το 1996 #bala24 #shorts #football",
+      "ok": true,
+      "youtube": "https://youtube.com/shorts/VbBgaENphp4",
+      "yt_id": "VbBgaENphp4",
+      "yt_uploaded": "2026-11-17T13:00:29.339918+00:00",
+      "yt_state": "pending",
+      "instagram": "https://www.instagram.com/reel/Df1_WD-iLXg/",
+      "story": "https://www.instagram.com/stories/bala24gr/4032407997711730165",
+      "errors": []
     }
   ]
 }
