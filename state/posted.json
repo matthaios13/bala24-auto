@@ -26,7 +26,8 @@
     "2118686083688890879",
     "2119990931533574342",
     "2119874916896157979",
-    "2112964049105199595"
+    "2112964049105199595",
+    "2119883620051472568"
   ],
   "log": [
     {
@@ -422,6 +423,20 @@
       "yt_state": "public",
       "instagram": "https://www.instagram.com/reel/Df2hmrCjvMj/",
       "story": "https://www.instagram.com/stories/bala24gr/4032558908568657204",
+      "errors": []
+    },
+    {
+      "slot": "2026-11-18 11:00",
+      "source_id": "2119883620051472568",
+      "source_title": "@90sFootballUK1: What was Iain Dowie doing 🤣",
+      "title": "😂 Τι έκανε ο Ίαν Ντάουι σε αυτό το βίντεο; #bala24 #shorts #football",
+      "ok": true,
+      "youtube": "https://youtube.com/shorts/kksbtTckA54",
+      "yt_id": "kksbtTckA54",
+      "yt_uploaded": "2026-11-18T09:00:19.346585+00:00",
+      "yt_state": "pending",
+      "instagram": "https://www.instagram.com/reel/Df4IlzMDBXX/",
+      "story": "https://www.instagram.com/stories/bala24gr/4033011554634894881",
       "errors": []
     }
   ]
