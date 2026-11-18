@@ -28,7 +28,8 @@
     "2119874916896157979",
     "2112964049105199595",
     "2119883620051472568",
-    "2118275290908573760"
+    "2118275290908573760",
+    "2113828515464544671"
   ],
   "log": [
     {
@@ -452,6 +453,20 @@
       "yt_state": "public",
       "instagram": "https://www.instagram.com/reel/Df4kKaoD9qT/",
       "story": "https://www.instagram.com/stories/bala24gr/4033132804154111097",
+      "errors": []
+    },
+    {
+      "slot": "2026-11-18 20:00",
+      "source_id": "2113828515464544671",
+      "source_title": "@retro_calcio: Yorkshire TV Sunday Sport December 1975 Leeds United 4-0 Leicester City  Commentator Keith Macklin #LUFC #lcfc https://t",
+      "title": "⚽ Λιντς 4-0 Λεστερ: Η νίκη του 1975 με τον Μακλίν #bala24 #shorts #football",
+      "ok": true,
+      "youtube": "https://youtube.com/shorts/hw8tdqmG8A8",
+      "yt_id": "hw8tdqmG8A8",
+      "yt_uploaded": "2026-11-18T18:00:21.616254+00:00",
+      "yt_state": "pending",
+      "instagram": "https://www.instagram.com/reel/Df5GY0JjxuB/",
+      "story": "https://www.instagram.com/stories/bala24gr/4033283831745374012",
       "errors": []
     }
   ]
