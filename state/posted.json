@@ -27,7 +27,8 @@
     "2119990931533574342",
     "2119874916896157979",
     "2112964049105199595",
-    "2119883620051472568"
+    "2119883620051472568",
+    "2118275290908573760"
   ],
   "log": [
     {
@@ -434,9 +435,23 @@
       "youtube": "https://youtube.com/shorts/kksbtTckA54",
       "yt_id": "kksbtTckA54",
       "yt_uploaded": "2026-11-18T09:00:19.346585+00:00",
-      "yt_state": "pending",
+      "yt_state": "public",
       "instagram": "https://www.instagram.com/reel/Df4IlzMDBXX/",
       "story": "https://www.instagram.com/stories/bala24gr/4033011554634894881",
+      "errors": []
+    },
+    {
+      "slot": "2026-11-18 15:00",
+      "source_id": "2118275290908573760",
+      "source_title": "@footyxtraHQ: How the Como players arrived in Lens pre match before annihilating them 9-1. 😎🔥 https://t.co/wm0G81kB4N",
+      "title": "🔥 Πώς έφτασαν οι παίκτες της Κόμο στη Λανς πριν το 9-1 #bala24 #shorts #football",
+      "ok": true,
+      "youtube": "https://youtube.com/shorts/EUsz0iU1leo",
+      "yt_id": "EUsz0iU1leo",
+      "yt_uploaded": "2026-11-18T13:00:38.810381+00:00",
+      "yt_state": "pending",
+      "instagram": "https://www.instagram.com/reel/Df4kKaoD9qT/",
+      "story": "https://www.instagram.com/stories/bala24gr/4033132804154111097",
       "errors": []
     }
   ]
