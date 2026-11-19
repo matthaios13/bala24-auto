@@ -30,7 +30,8 @@
     "2119883620051472568",
     "2118275290908573760",
     "2113828515464544671",
-    "2119877936861909439"
+    "2119877936861909439",
+    "2119707911479755236"
   ],
   "log": [
     {
@@ -479,9 +480,23 @@
       "youtube": "https://youtube.com/shorts/iR85zWpgQtQ",
       "yt_id": "iR85zWpgQtQ",
       "yt_uploaded": "2026-11-19T09:00:25.071534+00:00",
-      "yt_state": "pending",
+      "yt_state": "public",
       "instagram": "https://www.instagram.com/reel/Df6tZCMkkSG/",
       "story": "https://www.instagram.com/stories/bala24gr/4033736533462655553",
+      "errors": []
+    },
+    {
+      "slot": "2026-11-19 15:00",
+      "source_id": "2119707911479755236",
+      "source_title": "@FootballRemind: #OnThisDay 1997 Arsenal beat Manchester United 3-2 at Highbury.  There were some great goals in this one!  Vieira’s curl",
+      "title": "⚽ Άρσεναλ-Μάντσεστερ 3-2: Οι γκολάρες του Βιεϊρά και του Πλατ #bala24 #shorts #football",
+      "ok": true,
+      "youtube": "https://youtube.com/shorts/MYWJd2JNli8",
+      "yt_id": "MYWJd2JNli8",
+      "yt_uploaded": "2026-11-19T13:05:30.018408+00:00",
+      "yt_state": "pending",
+      "instagram": "https://www.instagram.com/reel/Df7JcX0ALmC/",
+      "story": "https://www.instagram.com/stories/bala24gr/4033860172216915134",
       "errors": []
     }
   ]
