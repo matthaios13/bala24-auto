@@ -29,7 +29,8 @@
     "2112964049105199595",
     "2119883620051472568",
     "2118275290908573760",
-    "2113828515464544671"
+    "2113828515464544671",
+    "2119877936861909439"
   ],
   "log": [
     {
@@ -467,6 +468,20 @@
       "yt_state": "public",
       "instagram": "https://www.instagram.com/reel/Df5GY0JjxuB/",
       "story": "https://www.instagram.com/stories/bala24gr/4033283831745374012",
+      "errors": []
+    },
+    {
+      "slot": "2026-11-19 11:00",
+      "source_id": "2119877936861909439",
+      "source_title": "@retrofootballnw: FA Cup moment  Back to January 1987 and a 2nd replay at Kenilworth Road  This time @LutonTown were able to beat Liverpoo",
+      "title": "🏆 Λούτον - Λίβερπουλ: Η νίκη του '87 στο Κύπελλο #bala24 #shorts #football",
+      "ok": true,
+      "youtube": "https://youtube.com/shorts/iR85zWpgQtQ",
+      "yt_id": "iR85zWpgQtQ",
+      "yt_uploaded": "2026-11-19T09:00:25.071534+00:00",
+      "yt_state": "pending",
+      "instagram": "https://www.instagram.com/reel/Df6tZCMkkSG/",
+      "story": "https://www.instagram.com/stories/bala24gr/4033736533462655553",
       "errors": []
     }
   ]
