@@ -33,7 +33,8 @@
     "2119877936861909439",
     "2119707911479755236",
     "2038890488439476661",
-    "2056250708949623057"
+    "2056250708949623057",
+    "2120046042624168294"
   ],
   "log": [
     {
@@ -526,9 +527,23 @@
       "youtube": "https://youtube.com/shorts/5SmI0mLvldI",
       "yt_id": "5SmI0mLvldI",
       "yt_uploaded": "2026-11-20T09:00:22.668569+00:00",
-      "yt_state": "pending",
+      "yt_state": "public",
       "instagram": "https://www.instagram.com/reel/Df9SLbCAd3d/",
       "story": "https://www.instagram.com/stories/bala24gr/4034461180378150413",
+      "errors": []
+    },
+    {
+      "slot": "2026-11-20 15:00",
+      "source_id": "2120046042624168294",
+      "source_title": "@80s90sfootball: Faustino Asprilla 57 today  Explosive, exciting &amp; unpredictable striker, most notably for Atlético Nacional, Parma, ",
+      "title": "🎂 Χρόνια πολλά στον Φαυστίνο Ασπρίγια! #bala24 #shorts #football",
+      "ok": true,
+      "youtube": "https://youtube.com/shorts/eTIXpqFTYjs",
+      "yt_id": "eTIXpqFTYjs",
+      "yt_uploaded": "2026-11-20T13:07:20.044569+00:00",
+      "yt_state": "pending",
+      "instagram": "https://www.instagram.com/reel/Df9ucZfiulu/",
+      "story": "https://www.instagram.com/stories/bala24gr/4034585626434972455",
       "errors": []
     }
   ]
