@@ -36,7 +36,8 @@
     "2056250708949623057",
     "2120046042624168294",
     "2083183166253048233",
-    "2119686455488331858"
+    "2119686455488331858",
+    "2119943116258238749"
   ],
   "log": [
     {
@@ -571,9 +572,23 @@
       "youtube": "https://youtube.com/shorts/klRSSvjteII",
       "yt_id": "klRSSvjteII",
       "yt_uploaded": "2026-11-21T09:00:24.469296+00:00",
-      "yt_state": "pending",
+      "yt_state": "public",
       "instagram": "https://www.instagram.com/reel/Df_2-sgldjo/",
       "story": "https://www.instagram.com/stories/bala24gr/4035185944020761763",
+      "errors": []
+    },
+    {
+      "slot": "2026-11-21 15:00",
+      "source_id": "2119943116258238749",
+      "source_title": "@90sfootball: The king of free kicks - Sinisa Mihajlovic 💥 https://t.co/Ti5PGW0nU5",
+      "title": "💥 Ο Σινίσα Μιχάιλοβιτς και τα φάουλ που έγραψαν ιστορία #bala24 #shorts #football",
+      "ok": true,
+      "youtube": "https://youtube.com/shorts/xYLSC-BkZjU",
+      "yt_id": "xYLSC-BkZjU",
+      "yt_uploaded": "2026-11-21T13:00:31.635361+00:00",
+      "yt_state": "pending",
+      "instagram": "https://www.instagram.com/reel/DgASdN1jaba/",
+      "story": "https://www.instagram.com/stories/bala24gr/4035306948736130798",
       "errors": []
     }
   ]
