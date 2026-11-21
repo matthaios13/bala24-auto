@@ -37,7 +37,8 @@
     "2120046042624168294",
     "2083183166253048233",
     "2119686455488331858",
-    "2119943116258238749"
+    "2119943116258238749",
+    "2120063636073050326"
   ],
   "log": [
     {
@@ -589,6 +590,20 @@
       "yt_state": "public",
       "instagram": "https://www.instagram.com/reel/DgASdN1jaba/",
       "story": "https://www.instagram.com/stories/bala24gr/4035306948736130798",
+      "errors": []
+    },
+    {
+      "slot": "2026-11-21 20:00",
+      "source_id": "2120063636073050326",
+      "source_title": "@FootyTimeless: Andrea Pirlo vs Croatia (EURO 2012) 🇮🇹🔥 https://t.co/SZqFFygjYc",
+      "title": "🔥 Η εμφάνιση του Πίρλο απέναντι στην Κροατία στο EURO 2012 #bala24 #shorts #football",
+      "ok": true,
+      "youtube": "https://youtube.com/shorts/LUAWUl11AiM",
+      "yt_id": "LUAWUl11AiM",
+      "yt_uploaded": "2026-11-21T18:00:24.244416+00:00",
+      "yt_state": "pending",
+      "instagram": "https://www.instagram.com/reel/DgA0xlJmT8r/",
+      "story": "https://www.instagram.com/stories/bala24gr/4035457896577701437",
       "errors": []
     }
   ]
