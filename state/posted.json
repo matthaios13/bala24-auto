@@ -39,7 +39,8 @@
     "2119686455488331858",
     "2119943116258238749",
     "2120063636073050326",
-    "2119988430998532125"
+    "2119988430998532125",
+    "2120054852453843160"
   ],
   "log": [
     {
@@ -616,10 +617,25 @@
       "youtube": "https://youtube.com/shorts/YORAbkzl2JA",
       "yt_id": "YORAbkzl2JA",
       "yt_uploaded": "2026-11-22T09:00:23.642703+00:00",
-      "yt_state": "pending",
+      "yt_state": "public",
       "instagram": "https://www.instagram.com/reel/DgCb0I1ACbK/",
       "story": "https://www.instagram.com/stories/bala24gr/4035911335518175829",
       "errors": []
+    },
+    {
+      "slot": "2026-11-22 15:00",
+      "source_id": "2120054852453843160",
+      "source_title": "@eurofootcom: 😍🔊 Listen to the sound of the ball hitting the net for Joshua Kimmich's goal against Mainz. 🇩🇪 https://t.co/581CJrMiTx",
+      "title": "🔊 Ακούστε τον ήχο της μπάλας στο γκολ του Κίμιχ απέναντι στη Μάιντς #bala24 #shorts #football",
+      "ok": true,
+      "youtube": "https://youtube.com/shorts/uZ-xgRwFMmg",
+      "yt_id": "uZ-xgRwFMmg",
+      "yt_uploaded": "2026-11-22T13:00:31.294787+00:00",
+      "yt_state": "pending",
+      "errors": [
+        "Instagram: container 400: {\"error\":{\"message\":\"Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.\",\"code\":190,\"type\":\"OAuthException\",\"error_subcode\":460,\"fbtrace_id\":\"AcZp0SGXKd6TQFhvxPHnL47\"}}",
+        "Instagram Story: container 400: {\"error\":{\"message\":\"Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.\",\"code\":190,\"type\":\"OAuthException\",\"error_subcode\":460,\"fbtrace_id\":\"AvtR4AcNPoGrJ5ef9eNIxPI\"}}"
+      ]
     }
   ]
 }
