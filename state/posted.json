@@ -38,7 +38,8 @@
     "2083183166253048233",
     "2119686455488331858",
     "2119943116258238749",
-    "2120063636073050326"
+    "2120063636073050326",
+    "2119988430998532125"
   ],
   "log": [
     {
@@ -604,6 +605,20 @@
       "yt_state": "public",
       "instagram": "https://www.instagram.com/reel/DgA0xlJmT8r/",
       "story": "https://www.instagram.com/stories/bala24gr/4035457896577701437",
+      "errors": []
+    },
+    {
+      "slot": "2026-11-22 11:00",
+      "source_id": "2119988430998532125",
+      "source_title": "@futnostalgico: 2016 — Há 10 anos: o Brasil deu show e goleou a Argentina por 3 a 0, no Mineirão, pelas Eliminatórias da Copa de 2018.  ",
+      "title": "🔥 Βραζιλία 3-0 Αργεντινή: Το σόου στο Μινεϊράν #bala24 #shorts #football",
+      "ok": true,
+      "youtube": "https://youtube.com/shorts/YORAbkzl2JA",
+      "yt_id": "YORAbkzl2JA",
+      "yt_uploaded": "2026-11-22T09:00:23.642703+00:00",
+      "yt_state": "pending",
+      "instagram": "https://www.instagram.com/reel/DgCb0I1ACbK/",
+      "story": "https://www.instagram.com/stories/bala24gr/4035911335518175829",
       "errors": []
     }
   ]
