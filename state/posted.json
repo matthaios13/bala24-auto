@@ -647,7 +647,7 @@
       "youtube": "https://youtube.com/shorts/IVDWLIFZRAA",
       "yt_id": "IVDWLIFZRAA",
       "yt_uploaded": "2026-11-22T18:00:24.239558+00:00",
-      "yt_state": "pending",
+      "yt_state": "public",
       "errors": [
         "Instagram: container 400: {\"error\":{\"message\":\"Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.\",\"code\":190,\"type\":\"OAuthException\",\"error_subcode\":460,\"fbtrace_id\":\"A0jY1LakW9UVV66MUNbEL6P\"}}",
         "Instagram Story: container 400: {\"error\":{\"message\":\"Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.\",\"code\":190,\"type\":\"OAuthException\",\"error_subcode\":460,\"fbtrace_id\":\"AV17mLxx95idfnkyheGarqu\"}}"
