@@ -40,7 +40,8 @@
     "2119943116258238749",
     "2120063636073050326",
     "2119988430998532125",
-    "2120054852453843160"
+    "2120054852453843160",
+    "2119922019726664125"
   ],
   "log": [
     {
@@ -635,6 +636,21 @@
       "errors": [
         "Instagram: container 400: {\"error\":{\"message\":\"Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.\",\"code\":190,\"type\":\"OAuthException\",\"error_subcode\":460,\"fbtrace_id\":\"AcZp0SGXKd6TQFhvxPHnL47\"}}",
         "Instagram Story: container 400: {\"error\":{\"message\":\"Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.\",\"code\":190,\"type\":\"OAuthException\",\"error_subcode\":460,\"fbtrace_id\":\"AvtR4AcNPoGrJ5ef9eNIxPI\"}}"
+      ]
+    },
+    {
+      "slot": "2026-11-22 20:00",
+      "source_id": "2119922019726664125",
+      "source_title": "@00sFootb4ll: Dennis Bergkamp with one of the Premier League greatest goals vs Newcastle, 2002. Sick🔥 https://t.co/2WEkA0MOsc",
+      "title": "🔥 Το γκολ του Μπέργκκαμπ κόντρα στη Νιούκαστλ το 2002 #bala24 #shorts #football",
+      "ok": true,
+      "youtube": "https://youtube.com/shorts/IVDWLIFZRAA",
+      "yt_id": "IVDWLIFZRAA",
+      "yt_uploaded": "2026-11-22T18:00:24.239558+00:00",
+      "yt_state": "pending",
+      "errors": [
+        "Instagram: container 400: {\"error\":{\"message\":\"Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.\",\"code\":190,\"type\":\"OAuthException\",\"error_subcode\":460,\"fbtrace_id\":\"A0jY1LakW9UVV66MUNbEL6P\"}}",
+        "Instagram Story: container 400: {\"error\":{\"message\":\"Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.\",\"code\":190,\"type\":\"OAuthException\",\"error_subcode\":460,\"fbtrace_id\":\"AV17mLxx95idfnkyheGarqu\"}}"
       ]
     }
   ]
