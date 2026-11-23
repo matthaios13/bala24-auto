@@ -41,7 +41,8 @@
     "2120063636073050326",
     "2119988430998532125",
     "2120054852453843160",
-    "2119922019726664125"
+    "2119922019726664125",
+    "1933506164198608947"
   ],
   "log": [
     {
@@ -651,6 +652,21 @@
       "errors": [
         "Instagram: container 400: {\"error\":{\"message\":\"Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.\",\"code\":190,\"type\":\"OAuthException\",\"error_subcode\":460,\"fbtrace_id\":\"A0jY1LakW9UVV66MUNbEL6P\"}}",
         "Instagram Story: container 400: {\"error\":{\"message\":\"Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.\",\"code\":190,\"type\":\"OAuthException\",\"error_subcode\":460,\"fbtrace_id\":\"AV17mLxx95idfnkyheGarqu\"}}"
+      ]
+    },
+    {
+      "slot": "2026-11-23 11:00",
+      "source_id": "1933506164198608947",
+      "source_title": "@retro_plus: Golazo de Finidi con su celebración habitual  ⚽️ Real Betis 5-0 Real Oviedo 📅 18-4-1999 https://t.co/FUTLmTE8BH",
+      "title": "⚽️ Το γκολ και η χαρακτηριστική γιορτή του Φινίντι #bala24 #shorts #football",
+      "ok": true,
+      "youtube": "https://youtube.com/shorts/KywyDYK0uW8",
+      "yt_id": "KywyDYK0uW8",
+      "yt_uploaded": "2026-11-23T09:00:25.871423+00:00",
+      "yt_state": "pending",
+      "errors": [
+        "Instagram: container 400: {\"error\":{\"message\":\"Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.\",\"code\":190,\"type\":\"OAuthException\",\"error_subcode\":460,\"fbtrace_id\":\"ATZqlF-8WlkaubYxX2UoHnD\"}}",
+        "Instagram Story: container 400: {\"error\":{\"message\":\"Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.\",\"code\":190,\"type\":\"OAuthException\",\"error_subcode\":460,\"fbtrace_id\":\"AuImgT5J9mox1ISy4z06-Ic\"}}"
       ]
     }
   ]
