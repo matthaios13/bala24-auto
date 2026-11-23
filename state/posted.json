@@ -43,7 +43,8 @@
     "2120054852453843160",
     "2119922019726664125",
     "1933506164198608947",
-    "2119758399126868296"
+    "2119758399126868296",
+    "2118710887209177392"
   ],
   "log": [
     {
@@ -679,11 +680,25 @@
       "youtube": "https://youtube.com/shorts/0r_hnEX1rwg",
       "yt_id": "0r_hnEX1rwg",
       "yt_uploaded": "2026-11-23T13:00:25.295507+00:00",
-      "yt_state": "pending",
+      "yt_state": "public",
       "errors": [
         "Instagram: container 400: {\"error\":{\"message\":\"Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.\",\"code\":190,\"type\":\"OAuthException\",\"error_subcode\":460,\"fbtrace_id\":\"AWaky3T3gcuP-GqEiIxgUTa\"}}",
         "Instagram Story: container 400: {\"error\":{\"message\":\"Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.\",\"code\":190,\"type\":\"OAuthException\",\"error_subcode\":460,\"fbtrace_id\":\"AMmXx2tk6CTOrTr9waWtvX-\"}}"
       ]
+    },
+    {
+      "slot": "2026-11-23 20:00",
+      "source_id": "2118710887209177392",
+      "source_title": "@3Retro_Football: Braces from Mark Viduka, Alan Smith and Sergei Rebrov and a rare goal from Chris Perry we're on the scoresheet in this s",
+      "title": "🔥 7 γκολ στο Έλαντ Ρόουντ το 2000 με Βίντουκα, Σμιθ, Ρεμπρόφ #bala24 #shorts #football",
+      "ok": true,
+      "youtube": "https://youtube.com/shorts/HjTtWyPHWTw",
+      "yt_id": "HjTtWyPHWTw",
+      "yt_uploaded": "2026-11-23T18:00:25.781836+00:00",
+      "yt_state": "pending",
+      "instagram": "https://www.instagram.com/reel/DgF-Zq-FGiH/",
+      "story": "https://www.instagram.com/stories/bala24gr/4036907811232425117",
+      "errors": []
     }
   ]
 }
