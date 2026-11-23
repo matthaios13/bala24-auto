@@ -42,7 +42,8 @@
     "2119988430998532125",
     "2120054852453843160",
     "2119922019726664125",
-    "1933506164198608947"
+    "1933506164198608947",
+    "2119758399126868296"
   ],
   "log": [
     {
@@ -663,10 +664,25 @@
       "youtube": "https://youtube.com/shorts/KywyDYK0uW8",
       "yt_id": "KywyDYK0uW8",
       "yt_uploaded": "2026-11-23T09:00:25.871423+00:00",
-      "yt_state": "pending",
+      "yt_state": "public",
       "errors": [
         "Instagram: container 400: {\"error\":{\"message\":\"Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.\",\"code\":190,\"type\":\"OAuthException\",\"error_subcode\":460,\"fbtrace_id\":\"ATZqlF-8WlkaubYxX2UoHnD\"}}",
         "Instagram Story: container 400: {\"error\":{\"message\":\"Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.\",\"code\":190,\"type\":\"OAuthException\",\"error_subcode\":460,\"fbtrace_id\":\"AuImgT5J9mox1ISy4z06-Ic\"}}"
+      ]
+    },
+    {
+      "slot": "2026-11-23 15:00",
+      "source_id": "2119758399126868296",
+      "source_title": "@PremiershipYrs: ⚽️ Random Premiership goals ⚽️  Andriy Shevchenko 🇺🇦 Chelsea vs Sheffield United 18th March 2007 https://t.co/PHaAnLhXe5",
+      "title": "⚽️ Το γκολ του Σεβτσένκο απέναντι στη Σέφιλντ Γιουνάιτεντ #bala24 #shorts #football",
+      "ok": true,
+      "youtube": "https://youtube.com/shorts/0r_hnEX1rwg",
+      "yt_id": "0r_hnEX1rwg",
+      "yt_uploaded": "2026-11-23T13:00:25.295507+00:00",
+      "yt_state": "pending",
+      "errors": [
+        "Instagram: container 400: {\"error\":{\"message\":\"Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.\",\"code\":190,\"type\":\"OAuthException\",\"error_subcode\":460,\"fbtrace_id\":\"AWaky3T3gcuP-GqEiIxgUTa\"}}",
+        "Instagram Story: container 400: {\"error\":{\"message\":\"Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.\",\"code\":190,\"type\":\"OAuthException\",\"error_subcode\":460,\"fbtrace_id\":\"AMmXx2tk6CTOrTr9waWtvX-\"}}"
       ]
     }
   ]
