@@ -45,7 +45,8 @@
     "1933506164198608947",
     "2119758399126868296",
     "2118710887209177392",
-    "2110794816128733521"
+    "2110794816128733521",
+    "1248686363005849601"
   ],
   "log": [
     {
@@ -710,9 +711,23 @@
       "youtube": "https://youtube.com/shorts/iRBJEKBk3ws",
       "yt_id": "iRBJEKBk3ws",
       "yt_uploaded": "2026-11-24T09:00:28.542228+00:00",
-      "yt_state": "pending",
+      "yt_state": "public",
       "instagram": "https://www.instagram.com/reel/DgHlXofiS3f/",
       "story": "https://www.instagram.com/stories/bala24gr/4037360297454428089",
+      "errors": []
+    },
+    {
+      "slot": "2026-11-24 15:00",
+      "source_id": "1248686363005849601",
+      "source_title": "@worldcupmemor: FIFA World Cup 2002 🇰🇷🇯🇵 @FIFAWorldCup   🇫🇷 0 • 1 🇸🇳  @equipedefrance  @FootballSenegal   ✔️ Group Stage 📆 May. 31st 200",
+      "title": "⚽ Η Σενεγάλη νίκησε τη Γαλλία στο Μουντιάλ 2002 #bala24 #shorts #football",
+      "ok": true,
+      "youtube": "https://youtube.com/shorts/8DA13LFlf0I",
+      "yt_id": "8DA13LFlf0I",
+      "yt_uploaded": "2026-11-24T13:00:23.946916+00:00",
+      "yt_state": "pending",
+      "instagram": "https://www.instagram.com/reel/DgIA6zcjyv8/",
+      "story": "https://www.instagram.com/stories/bala24gr/4037481694755426042",
       "errors": []
     }
   ]
