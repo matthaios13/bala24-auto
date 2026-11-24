@@ -44,7 +44,8 @@
     "2119922019726664125",
     "1933506164198608947",
     "2119758399126868296",
-    "2118710887209177392"
+    "2118710887209177392",
+    "2110794816128733521"
   ],
   "log": [
     {
@@ -698,6 +699,20 @@
       "yt_state": "public",
       "instagram": "https://www.instagram.com/reel/DgF-Zq-FGiH/",
       "story": "https://www.instagram.com/stories/bala24gr/4036907811232425117",
+      "errors": []
+    },
+    {
+      "slot": "2026-11-24 11:00",
+      "source_id": "2110794816128733521",
+      "source_title": "@TFHBs: https://t.co/vRZbzhBcry",
+      "title": "⚽  #bala24 #shorts #football",
+      "ok": true,
+      "youtube": "https://youtube.com/shorts/iRBJEKBk3ws",
+      "yt_id": "iRBJEKBk3ws",
+      "yt_uploaded": "2026-11-24T09:00:28.542228+00:00",
+      "yt_state": "pending",
+      "instagram": "https://www.instagram.com/reel/DgHlXofiS3f/",
+      "story": "https://www.instagram.com/stories/bala24gr/4037360297454428089",
       "errors": []
     }
   ]
