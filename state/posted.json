@@ -49,7 +49,8 @@
     "1248686363005849601",
     "2068036880793248011",
     "2051206189682188648",
-    "2116474042890744208"
+    "2116474042890744208",
+    "1642069297718591492"
   ],
   "log": [
     {
@@ -772,9 +773,23 @@
       "youtube": "https://youtube.com/shorts/BWUMGmrBeHU",
       "yt_id": "BWUMGmrBeHU",
       "yt_uploaded": "2026-11-25T13:00:31.228918+00:00",
-      "yt_state": "pending",
+      "yt_state": "public",
       "instagram": "https://www.instagram.com/reel/DgKlotIh6Py/",
       "story": "https://www.instagram.com/stories/bala24gr/4038205782960837961",
+      "errors": []
+    },
+    {
+      "slot": "2026-11-25 20:00",
+      "source_id": "1642069297718591492",
+      "source_title": "@1980sHeaven: On this day in 1989 Tottenham won 3-0 at home to West Ham in the First Division.  Three years after coming close to fini",
+      "title": "⚽ Το 3-0 της Τότεναμ απέναντι στη Γουέστ Χαμ το 1989 #bala24 #shorts #football",
+      "ok": true,
+      "youtube": "https://youtube.com/shorts/RmFXuBz-im0",
+      "yt_id": "RmFXuBz-im0",
+      "yt_uploaded": "2026-11-25T18:00:26.081409+00:00",
+      "yt_state": "pending",
+      "instagram": "https://www.instagram.com/reel/DgLH9MuBtmc/",
+      "story": "https://www.instagram.com/stories/bala24gr/4038356983588759507",
       "errors": []
     }
   ]
