@@ -48,7 +48,8 @@
     "2110794816128733521",
     "1248686363005849601",
     "2068036880793248011",
-    "2051206189682188648"
+    "2051206189682188648",
+    "2116474042890744208"
   ],
   "log": [
     {
@@ -757,9 +758,23 @@
       "youtube": "https://youtube.com/shorts/sEmvGpx_kdw",
       "yt_id": "sEmvGpx_kdw",
       "yt_uploaded": "2026-11-25T09:00:23.579765+00:00",
-      "yt_state": "pending",
+      "yt_state": "public",
       "instagram": "https://www.instagram.com/reel/DgKKPYjh6Ie/",
       "story": "https://www.instagram.com/stories/bala24gr/4038085527982066075",
+      "errors": []
+    },
+    {
+      "slot": "2026-11-25 15:00",
+      "source_id": "2116474042890744208",
+      "source_title": "@footyxtraHQ: Bayern Munich fans were pelted with mustard by visiting Magdeburg supporters during their cup clash! 😳🌭 https://t.co/5Qa",
+      "title": "😳 Οπαδοί της Μαγκντεμπουργκ έριξαν μουστάρδα σε οπαδούς της Μπάγερν #bala24 #shorts #football",
+      "ok": true,
+      "youtube": "https://youtube.com/shorts/BWUMGmrBeHU",
+      "yt_id": "BWUMGmrBeHU",
+      "yt_uploaded": "2026-11-25T13:00:31.228918+00:00",
+      "yt_state": "pending",
+      "instagram": "https://www.instagram.com/reel/DgKlotIh6Py/",
+      "story": "https://www.instagram.com/stories/bala24gr/4038205782960837961",
       "errors": []
     }
   ]
