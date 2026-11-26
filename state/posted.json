@@ -50,7 +50,8 @@
     "2068036880793248011",
     "2051206189682188648",
     "2116474042890744208",
-    "1642069297718591492"
+    "1642069297718591492",
+    "2119540365875183676"
   ],
   "log": [
     {
@@ -790,6 +791,20 @@
       "yt_state": "public",
       "instagram": "https://www.instagram.com/reel/DgLH9MuBtmc/",
       "story": "https://www.instagram.com/stories/bala24gr/4038356983588759507",
+      "errors": []
+    },
+    {
+      "slot": "2026-11-26 11:00",
+      "source_id": "2119540365875183676",
+      "source_title": "@1968Tv: Anglia TV Match Of The Week April 1972 Ipswich Town 1-2 Chelsea  Commentator Gerry Harrison  #ITFC #CFC https://t.co/CVK",
+      "title": "📺 Ιπσουιχ - Τσέλσι 1-2, Απρίλιος 1972 #bala24 #shorts #football",
+      "ok": true,
+      "youtube": "https://youtube.com/shorts/-eFMtH8LMI8",
+      "yt_id": "-eFMtH8LMI8",
+      "yt_uploaded": "2026-11-26T09:00:21.029840+00:00",
+      "yt_state": "pending",
+      "instagram": "https://www.instagram.com/reel/DgMvCcjiemK/",
+      "story": "https://www.instagram.com/stories/bala24gr/4038810663014404359",
       "errors": []
     }
   ]
