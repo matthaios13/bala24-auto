@@ -52,7 +52,8 @@
     "2116474042890744208",
     "1642069297718591492",
     "2119540365875183676",
-    "2117961308238934166"
+    "2117961308238934166",
+    "2083795659493175364"
   ],
   "log": [
     {
@@ -817,9 +818,23 @@
       "youtube": "https://youtube.com/shorts/jsWNkJTwcn0",
       "yt_id": "jsWNkJTwcn0",
       "yt_uploaded": "2026-11-26T13:00:24.415880+00:00",
-      "yt_state": "pending",
+      "yt_state": "public",
       "instagram": "https://www.instagram.com/reel/DgNKa38lIQD/",
       "story": "https://www.instagram.com/stories/bala24gr/4038931469985685134",
+      "errors": []
+    },
+    {
+      "slot": "2026-11-26 20:00",
+      "source_id": "2083795659493175364",
+      "source_title": "@retro_calcio: ❤️💙ROBERTO BAGGIO - 56' Goal for BOLOGNA, Though INZAGHI scored a HATTRICK for Juventus! SERIE A 1997/1998 - Round 33 LO",
+      "title": "⚽ Μπάτζιο σκοράρει στη Γιουβέντους, ο Ιντζάγκι κάνει τρεμπλ #bala24 #shorts #football",
+      "ok": true,
+      "youtube": "https://youtube.com/shorts/mmywyniMdXs",
+      "yt_id": "mmywyniMdXs",
+      "yt_uploaded": "2026-11-26T18:03:53.146165+00:00",
+      "yt_state": "pending",
+      "instagram": "https://www.instagram.com/reel/DgNtPd3BLSh/",
+      "story": "https://www.instagram.com/stories/bala24gr/4039084159044960088",
       "errors": []
     }
   ]
