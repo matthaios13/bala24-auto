@@ -51,7 +51,8 @@
     "2051206189682188648",
     "2116474042890744208",
     "1642069297718591492",
-    "2119540365875183676"
+    "2119540365875183676",
+    "2117961308238934166"
   ],
   "log": [
     {
@@ -802,9 +803,23 @@
       "youtube": "https://youtube.com/shorts/-eFMtH8LMI8",
       "yt_id": "-eFMtH8LMI8",
       "yt_uploaded": "2026-11-26T09:00:21.029840+00:00",
-      "yt_state": "pending",
+      "yt_state": "public",
       "instagram": "https://www.instagram.com/reel/DgMvCcjiemK/",
       "story": "https://www.instagram.com/stories/bala24gr/4038810663014404359",
+      "errors": []
+    },
+    {
+      "slot": "2026-11-26 15:00",
+      "source_id": "2117961308238934166",
+      "source_title": "@golsdcopa: Portugal vs Marrocos, 1986. https://t.co/zFkiIO5N2T",
+      "title": "⚽ Πορτογαλία - Μαρόκο, 1986 #bala24 #shorts #football",
+      "ok": true,
+      "youtube": "https://youtube.com/shorts/jsWNkJTwcn0",
+      "yt_id": "jsWNkJTwcn0",
+      "yt_uploaded": "2026-11-26T13:00:24.415880+00:00",
+      "yt_state": "pending",
+      "instagram": "https://www.instagram.com/reel/DgNKa38lIQD/",
+      "story": "https://www.instagram.com/stories/bala24gr/4038931469985685134",
       "errors": []
     }
   ]
