@@ -54,7 +54,8 @@
     "2119540365875183676",
     "2117961308238934166",
     "2083795659493175364",
-    "2119772240371663356"
+    "2119772240371663356",
+    "2119707796929401280"
   ],
   "log": [
     {
@@ -847,9 +848,23 @@
       "youtube": "https://youtube.com/shorts/9Xfmg7Blifc",
       "yt_id": "9Xfmg7Blifc",
       "yt_uploaded": "2026-11-27T09:00:23.505221+00:00",
-      "yt_state": "pending",
+      "yt_state": "public",
       "instagram": "https://www.instagram.com/reel/DgPT2U4xipF/",
       "story": "https://www.instagram.com/stories/bala24gr/4039535496161269730",
+      "errors": []
+    },
+    {
+      "slot": "2026-11-27 15:00",
+      "source_id": "2119707796929401280",
+      "source_title": "@FootballRemind: #OnThisDay 1986 Another Marco van Basten finishing masterclass... this time a stunning bicycle kick for Ajax against Den",
+      "title": "🔥 Ο βολέ του Μπαστέν κόντρα στη Ντεν Μπόσχ το 1986 #bala24 #shorts #football",
+      "ok": true,
+      "youtube": "https://youtube.com/shorts/h8-8QdKPaZ0",
+      "yt_id": "h8-8QdKPaZ0",
+      "yt_uploaded": "2026-11-27T13:10:52.805793+00:00",
+      "yt_state": "pending",
+      "instagram": "https://www.instagram.com/reel/DgPwaZXT6We/",
+      "story": "https://www.instagram.com/stories/bala24gr/4039660830838869753",
       "errors": []
     }
   ]
