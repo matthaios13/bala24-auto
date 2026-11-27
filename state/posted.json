@@ -55,7 +55,8 @@
     "2117961308238934166",
     "2083795659493175364",
     "2119772240371663356",
-    "2119707796929401280"
+    "2119707796929401280",
+    "2038674365819269424"
   ],
   "log": [
     {
@@ -865,6 +866,20 @@
       "yt_state": "public",
       "instagram": "https://www.instagram.com/reel/DgPwaZXT6We/",
       "story": "https://www.instagram.com/stories/bala24gr/4039660830838869753",
+      "errors": []
+    },
+    {
+      "slot": "2026-11-27 20:00",
+      "source_id": "2038674365819269424",
+      "source_title": "@90sPlayers: Adriano's shot which almost broke the crossbar 🚀 https://t.co/vJrZH0tNoK",
+      "title": "🚀 Το σουτ του Αδριάνο που έσπασε τη γκολάρα #bala24 #shorts #football",
+      "ok": true,
+      "youtube": "https://youtube.com/shorts/61qGchjd4cI",
+      "yt_id": "61qGchjd4cI",
+      "yt_uploaded": "2026-11-27T18:00:40.449388+00:00",
+      "yt_state": "pending",
+      "instagram": "https://www.instagram.com/reel/DgQRknjTn_T/",
+      "story": "https://www.instagram.com/stories/bala24gr/4039806498208377762",
       "errors": []
     }
   ]
