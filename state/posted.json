@@ -53,7 +53,8 @@
     "1642069297718591492",
     "2119540365875183676",
     "2117961308238934166",
-    "2083795659493175364"
+    "2083795659493175364",
+    "2119772240371663356"
   ],
   "log": [
     {
@@ -835,6 +836,20 @@
       "yt_state": "public",
       "instagram": "https://www.instagram.com/reel/DgNtPd3BLSh/",
       "story": "https://www.instagram.com/stories/bala24gr/4039084159044960088",
+      "errors": []
+    },
+    {
+      "slot": "2026-11-27 11:00",
+      "source_id": "2119772240371663356",
+      "source_title": "@retrofootballnw: Fan favourite of the week  In his 3rd spell with @Boro Juninho Paulista shone brightly again.  Here he is scoring for #U",
+      "title": "⚽ Το γκολ του Ζουνίνιο Παουλάιστο με τη φανέλα της Μπόρο το 2003 #bala24 #shorts #football",
+      "ok": true,
+      "youtube": "https://youtube.com/shorts/9Xfmg7Blifc",
+      "yt_id": "9Xfmg7Blifc",
+      "yt_uploaded": "2026-11-27T09:00:23.505221+00:00",
+      "yt_state": "pending",
+      "instagram": "https://www.instagram.com/reel/DgPT2U4xipF/",
+      "story": "https://www.instagram.com/stories/bala24gr/4039535496161269730",
       "errors": []
     }
   ]
