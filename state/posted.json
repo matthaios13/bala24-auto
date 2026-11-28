@@ -57,7 +57,8 @@
     "2119772240371663356",
     "2119707796929401280",
     "2038674365819269424",
-    "2119686119227007149"
+    "2119686119227007149",
+    "2083100175715725681"
   ],
   "log": [
     {
@@ -892,9 +893,23 @@
       "youtube": "https://youtube.com/shorts/6Hy1SQBW4gs",
       "yt_id": "6Hy1SQBW4gs",
       "yt_uploaded": "2026-11-28T09:00:21.815679+00:00",
-      "yt_state": "pending",
+      "yt_state": "public",
       "instagram": "https://www.instagram.com/reel/DgR4iZqSnQu/",
       "story": "https://www.instagram.com/stories/bala24gr/4040259510928837874",
+      "errors": []
+    },
+    {
+      "slot": "2026-11-28 15:00",
+      "source_id": "2083100175715725681",
+      "source_title": "@FACupWembley: Happy 80th birthday to #LeedsUnited legend Allan Clarke  Sniffer played in 4 #FACup Finals (three for #Leeds in 1970, 19",
+      "title": "🎂 Χρόνια πολλά στον Άλαν Κλάρκ, θρύλο της Λιντς! #bala24 #shorts #football",
+      "ok": true,
+      "youtube": "https://youtube.com/shorts/CUhwvo7pLEc",
+      "yt_id": "CUhwvo7pLEc",
+      "yt_uploaded": "2026-11-28T13:00:26.787639+00:00",
+      "yt_state": "pending",
+      "instagram": "https://www.instagram.com/reel/DgSUAsYFue1/",
+      "story": "https://www.instagram.com/stories/bala24gr/4040380271926015689",
       "errors": []
     }
   ]
