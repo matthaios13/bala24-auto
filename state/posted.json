@@ -56,7 +56,8 @@
     "2083795659493175364",
     "2119772240371663356",
     "2119707796929401280",
-    "2038674365819269424"
+    "2038674365819269424",
+    "2119686119227007149"
   ],
   "log": [
     {
@@ -880,6 +881,20 @@
       "yt_state": "public",
       "instagram": "https://www.instagram.com/reel/DgQRknjTn_T/",
       "story": "https://www.instagram.com/stories/bala24gr/4039806498208377762",
+      "errors": []
+    },
+    {
+      "slot": "2026-11-28 11:00",
+      "source_id": "2119686119227007149",
+      "source_title": "@80s90sfootball: Alessandro Del Piero 52 today  Juventus icon, who was one of the greatest players of his generation  Fantastic player ht",
+      "title": "🎂 Χρόνια πολλά στον Αλέσσαντρο Δελ Πιέρο! #bala24 #shorts #football",
+      "ok": true,
+      "youtube": "https://youtube.com/shorts/6Hy1SQBW4gs",
+      "yt_id": "6Hy1SQBW4gs",
+      "yt_uploaded": "2026-11-28T09:00:21.815679+00:00",
+      "yt_state": "pending",
+      "instagram": "https://www.instagram.com/reel/DgR4iZqSnQu/",
+      "story": "https://www.instagram.com/stories/bala24gr/4040259510928837874",
       "errors": []
     }
   ]
